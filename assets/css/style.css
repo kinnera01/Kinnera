@@ -1,0 +1,215 @@
+html, body {
+	height: 100%;
+}
+body {
+	position: relative;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+}
+/*header*/
+.headercontainer{
+	font-family: 'Georgia';
+	overflow: auto;
+}
+
+.headercontainer::after {
+	content: "";
+	display: block;
+	clear: both;
+
+}
+/*heading*/
+h1{
+	background-color:#4aaaa5;
+	color: white;
+	margin-left: 175px;
+	text-align: center;
+	width:200px;
+	float: left;
+	padding :20px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	padding: 20px;
+}
+/*menu*/
+.topnavbar li{display: inline;}
+.topnavbar{
+	float:right;
+	margin-top: 55px;
+	margin-right: 100px;
+}
+.topnavbar a{
+	text-decoration: none;
+	text-align: center;
+	border-right:solid  #777777;
+	padding-right: 10px;
+	font-size: 20px;
+	font-color:#777777;
+}
+a:active {
+    background-color: white;
+}
+a:hover{
+	background-color:yellow;
+}
+/*container body*/
+.content{
+	background:url("http://www.planwallpaper.com/static/images/abstract_color_background_picture_8016-wide.jpg");
+	border-top:7px solid#777777;
+	border-bottom:7px solid#4aaaa5;
+	min-height: 80%;
+	overflow: auto;
+
+}
+/*about me*/
+#section1{
+	margin-left:180px;
+	margin-top:40px;
+	width:650px;
+	background-color: white;
+	border:1px solid #dddddd;
+	display: inline-block;
+	padding:20px;*/
+	overflow: auto;
+
+}
+h3{
+	color: #4aaaa5;
+	font-size: 30px;
+	border-bottom: 4px #dddddd;
+	padding: 10px;
+	
+}
+img{
+	float:left;
+	width:150px;
+	height:100px;
+	padding: 20px;
+
+}
+p{
+	margin:10px;
+	padding: 10px;
+	font-style: arial;
+	font-size: 20px;
+	font-color:#777777;
+}
+/*connect with me*/
+.section2{
+	float: right;
+	margin-right:150px;
+	margin-top:40px;
+	width:270px;
+	background-color: white;
+	border:1px solid #dddddd;
+	display: inline-block;
+}
+h3{
+	color: #4aaaa5;
+	font-size: 30px;
+	border-bottom: 2px solid #dddddd;
+	padding: 10px;
+
+}
+
+#img1 {
+	font-size: 4em;
+	width: 25%;
+	float:left;
+	padding: 10px;	
+}
+
+/*footer*/
+.footercontainer{
+	bottom: 0;
+	right: 0;
+	left:0;
+	position:fixed;
+	background-color: #666666;
+	height: 40px;
+	text-align: center;
+	width:100%;
+
+}
+
+.footercontainer p {
+	margin-top: 3px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*contactspage-page=3*/
+#input{
+	margin-left: 180px;
+	margin-top:40px;
+	width:650px;
+	background-color: white;
+	border:1px solid #dddddd;
+	display: inline-block;
+	padding: 20px;	
+}
+/*portfolio-page-2*/
+#places{
+	margin-left: 180px;
+	margin-top:40px;
+	width:650px;
+	height:550px;
+	align-items: center;
+	background-color: white;
+	border:1px solid #dddddd;
+	display: inline-block;
+	position: relative;
+	overflow: auto;
+}
+h5{
+	font-size: 15px;
+	font-color:white;
+
+
+}
+#bahamas{
+	position:absolute;
+	font-size: 20px;
+	background-color:teal;
+	margin-top: 110px;
+	margin-left: 20px;
+	width:270px;
+	text-align: center;
+}
+#Australia{
+	position:absolute;
+	font-size: 20px;
+	background-color:teal;
+	margin-top: 110px;
+	margin-left: 330px;
+	width:270px;
+	text-align: center;
+}
+#NewZealand{
+	position:absolute;
+	font-size: 20px;
+	background-color:teal;
+	margin-top: 300px;
+	margin-left: 20px;
+	width:270px;
+	text-align: center;
+}
+#Denver{
+	position:absolute;
+	font-size: 20px;
+	background-color:teal;
+	margin-top: 300px;
+	margin-left: 330px;
+	width:270px;
+	text-align: center;
+}
+#Portland{
+	position:absolute;
+	font-size: 20px;
+	background-color:teal;
+	margin-top: 490px;
+	margin-left: 20px;
+	width:270px;
+	text-align: center;
+}
