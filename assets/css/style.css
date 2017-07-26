@@ -62,7 +62,7 @@ a:hover{
 }
 .content{
 	width: 100%;
-	height: auto;
+	height: 100%;
 	clear:both;
 	display: inline-block;
 	background:url("http://www.planwallpaper.com/static/images/abstract_color_background_picture_8016-wide.jpg");
