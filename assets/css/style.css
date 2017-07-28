@@ -33,6 +33,7 @@ h1{
 	margin-left: 80px;
 	float: left;
 	margin-bottom: 0px;
+	font-size: 40px;
 }
 h3{
 	color: #4aaaa5;
@@ -53,13 +54,16 @@ h5{
 	text-decoration: none;
 	border-right:solid #777777;
 	padding-right: 10px;
-	font-size: 16px;
+	font-size: 20px;
+}
+
+a:hover{
+	background-color:yellow;
+	color:red;
 }
 a:active {
-    background-color:seagreen;
-}
-a:hover{
-	background-color:pink;
+    background-color:orange;
+    color:white;
 }
 .content{
 	width: 100%;
@@ -93,7 +97,7 @@ a:hover{
 	border:1px solid #dddddd;
 	display: inline-block;
 }
-img , #img1{
+img , #img1 ,#img2 ,#img3,#img4,#img5,#img6{
 	float: left;
 	padding: 10px;
 }
@@ -102,14 +106,32 @@ img{
 	width:150px;
 
 }
-#img1 {
+#img1 ,#img2 ,#img3,#img4,#img5,#img6{
 	font-size: 3em;
 	width: 25%;
+}
+.fa-linkedin-square{
+	color:red;
+}
+.fa-github-square{
+	color:darkblue;
+}
+.fa-stack-overflow{
+	color:orange;
+}
+.fa-facebook-square{
+	color: blue;
+}
+.fa-twitter-square{
+	color:skyblue;
+}
+.fa-instagram{
+	color: maroon;
 }
 p{
 	padding: 10px;
 	font-style:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 15px;
+	font-size: 20px;
 	font-color:#777777;
 }
 
