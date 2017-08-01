@@ -79,7 +79,7 @@ body{
 	clear:both;
 	display: inline-block;
 	border-top: 5px solid#777777;
-	border-bottom: 5px solid#4aaaa5;
+	/*border-bottom: 5px solid#4aaaa5;*/
 	padding-bottom: 8px;	/*min-height: calc(100vh - 40px);*/
 }
 #section1 ,#input,#places{
